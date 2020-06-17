@@ -1,7 +1,6 @@
-### This is a type of an algorithm that selects a cluster from a set of data points, removing unreliable outliers in the process: 
-### Iteratively, it calculates the maximum likelihood estimators of 
-### the mean vector and the variance-covariance matrix of the data for the normal distribution,
-### then checks which points, considered outliers, are below a given treshold,
+This is a type of an algorithm that selects a cluster from a set of data points, removing unreliable outliers in the process: 
+Iteratively, it calculates the maximum likelihood estimators of the mean vector and the variance-covariance matrix of the data for the normal distribution, then checks which points, considered outliers, are below a given treshold,
+
 ### discards these outlier points and recalcualtes again the maximum likelhood estimators but
 ### this time for the new reduced updated set of data points. 
 ### It terminates when no more outliers can be found.   
